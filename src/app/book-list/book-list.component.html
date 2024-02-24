@@ -15,4 +15,5 @@
     </ul>
     <div>ISBN {{ book.isbn }}</div>
   </li>
+  <li *ngIf="!books.length">No books available.</li>
 </ul>
